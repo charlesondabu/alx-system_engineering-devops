@@ -1,2 +1,12 @@
 #!/bin/bash
-ls -la && ls -la /boot
+list_current(){
+	ls -la
+}
+
+list_boot(){
+	ls -la /boot
+}
+
+$(list_current)
+$(list_boot)
+
