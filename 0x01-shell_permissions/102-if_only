@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo chwon --from=guillaume betty hello
+sudo chwon bettry --from=guillaume hello
