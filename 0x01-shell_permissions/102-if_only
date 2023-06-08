@@ -1,2 +1,2 @@
 #!/bin/bash
-["$(stat -c %U)"="guillaume" hello] && chown betty hello
+sudo chwon --from=guillaume betty hello
