@@ -1,0 +1,2 @@
+#!/bin/shell
+cat /etc/passwd /etc/hosts

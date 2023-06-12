@@ -1,0 +1,2 @@
+#!/bin/shell
+cat test_file | tr ' ' '\n' | sort | uniq -u

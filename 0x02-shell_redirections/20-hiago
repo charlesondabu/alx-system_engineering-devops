@@ -1,0 +1,2 @@
+#!/bin/shell
+read -p "Enter name" data; echo "$data"| tr -d 'cC'

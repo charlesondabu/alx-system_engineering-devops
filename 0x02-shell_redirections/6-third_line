@@ -1,0 +1,2 @@
+#!/bin/shell
+head -n 3 test_file | tail -n 1
