@@ -1,2 +1,3 @@
 #!/bin/bash
-read -p "Enter name" data; echo "$data"| tr -d 'cC'
+#!/bin/bash
+tr -d C | tr -d c
