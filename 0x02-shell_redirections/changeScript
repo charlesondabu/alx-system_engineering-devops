@@ -1,0 +1,11 @@
+#!/bin/bash
+
+replacement="#!/bin/bash"
+
+# Loop through files without extensions in the current directory
+for file in *.*; do
+    filename="${file%.*}"
+    if [[ ! -f "$filename" ]]; then
+        sed -i '1s|.*|'"$replacement"'|' "$filename"
+    fi
+done
