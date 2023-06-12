@@ -1,2 +1,2 @@
 #!/bin/bash
-read - p data; echo "$data" | rev
+rev
