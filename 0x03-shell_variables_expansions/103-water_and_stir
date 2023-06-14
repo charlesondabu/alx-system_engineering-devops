@@ -1,2 +1,2 @@
 #!/bin/bash
-$((10#$WATER + 10#$STIR))
+$((($water#$WATER) + ($stir#$STIR)))
