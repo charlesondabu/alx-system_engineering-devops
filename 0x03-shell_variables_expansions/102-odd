@@ -1,0 +1,9 @@
+#!/bin/bash
+
+ls -1 | while read -r file
+do
+    if [ -d "$file" ] && [ $(( $(echo "$file" | wc -m) % 2 )) -eq 1 ]
+    then
+        echo "$file"
+    fi
+done
