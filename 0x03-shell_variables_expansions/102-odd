@@ -1,9 +1,2 @@
 #!/bin/bash
-
-ls -1 | while read -r file
-do
-    if [ -d "$file" ] && [ $(( $(echo "$file" | wc -m) % 2 )) -eq 1 ]
-    then
-        echo "$file"
-    fi
-done
+printf '%o\n' $(( 5#$( echo $WATER | tr water 01234) + 5#$( echo $STIR | tr stir. 01234 ) )) | tr 01234567 behlnort
