@@ -1,2 +1,2 @@
 #!/bin/bash
-$(($BREATH**$LOVE))
+echo $(awk "BEGIN { printf \"%.2f\n\", $BREATH ** $LOVE }")
